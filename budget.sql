@@ -16,6 +16,6 @@ VALUES (2, 2022, 1, 1, 'jan allowance', 200.00);
 
 SELECT * FROM budget_table;
 
-UPDATE budget_table SET dat=10 WHERE id=1;
+UPDATE budget_table SET day=10 WHERE id=1;
 
 DELETE FROM budget_table WHERE id=1;
